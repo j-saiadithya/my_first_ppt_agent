@@ -1,0 +1,45 @@
+Hi, I’m Sai Adithya, and this is my Auto-PPT Agent project.
+
+This system uses an AI agent with MCP architecture to automatically generate a PowerPoint presentation from a single prompt, without any manual effort.
+
+The goal of this project is to take a simple user input, like “create a 5 slide ppt on AI and its types”, and convert it into a fully structured PowerPoint file.
+
+The system follows an agentic workflow where it first plans the slides, and then executes them step-by-step using MCP tools.
+
+Now, let’s look at the execution.
+
+Here, I provide the prompt: “create a 5 slide ppt on AI and its types”.
+
+The agent starts and enters the planning phase.
+
+In this phase, the agent uses a Hugging Face large language model to understand the prompt and generate a structured plan.
+
+As you can see, it creates a presentation titled “AI and Its Types” and generates five slides, including topics like Introduction to AI, Reactive Machines, Limited Memory, Theory of Mind, and Self-Aware AI.
+
+Next, the agent moves to the research phase using the MCP-based web search tool.
+
+In this case, no additional results were found, so the agent continues execution without interruption. This shows the system’s robustness.
+
+Now, the agent enters the execution phase.
+
+It connects to the PowerPoint MCP server and starts performing actions step-by-step.
+
+First, it creates the presentation.
+
+Then, it adds each slide one by one.
+
+After every action, the agent observes the result, such as confirming the slide count, before moving to the next step.
+
+This demonstrates a proper agentic loop of planning, execution, and observation.
+
+Finally, the agent calls the save function and generates the PowerPoint file.
+
+Now let’s open the generated presentation.
+
+As you can see, the slides are created with clear titles and structured bullet points, without any manual editing.
+
+This approach avoids hardcoded logic and enables scalable, modular AI systems.
+
+Overall, this project demonstrates how agentic AI systems combined with MCP architecture can automate real-world tasks efficiently.
+
+Thank you.
