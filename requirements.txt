@@ -1,0 +1,23 @@
+python-pptx==0.6.23
+
+# MCP
+mcp
+
+# Agent Framework
+langchain
+langchain-core
+langchain-community
+
+# Hugging Face LLM
+transformers
+huggingface_hub
+accelerate
+
+# Optional (lighter alternative for HF inference)
+sentence-transformers
+
+# Web search (optional for bonus marks)
+duckduckgo-search
+
+# Utilities
+python-dotenv
